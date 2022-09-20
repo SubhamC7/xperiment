@@ -1,8 +1,10 @@
 ---
-title: Sweet Cats
-date: 2022-09-20T13:05:16.907Z
+title: ""
+date: ""
 cats:
-  - name: kitty
-    description: sweet cat
+  - name: Kitty
+    description: Sweet cat
+  - name: Grumpy cat (Tardar Sauce)
+    description: Grumpy cat is an American celebrity cat known for her grumpy appearance.
 ---
 N﻿o body
