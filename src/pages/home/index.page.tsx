@@ -15,6 +15,7 @@ const Home = (props: Props) => {
   return (
     <>
       <Head>
+        <title>Xperiment</title>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
       <header
