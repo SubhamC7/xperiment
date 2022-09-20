@@ -7,4 +7,3 @@ cats:
   - name: Grumpy cat (Tardar Sauce)
     description: Grumpy cat is an American celebrity cat known for her grumpy appearance.
 ---
-N﻿o body
