@@ -7,10 +7,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#DB4132",
-        primaryDark: "#bf3226",
-        accent: "#FCBEC1",
-        tabCircle: "#ef9799",
         backdrop: "#0000007d",
         transparent: "rgba(255, 255, 255, 0)",
         transparentD: "#000000a8",

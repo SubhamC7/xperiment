@@ -3,12 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ["page.tsx", "page.ts", "page.jsx", "page.js"],
   images: {
-    domains: [
-      "localhost",
-      "127.0.0.1",
-      "https://zemidi.arodos.com",
-      "http://localhost:8888",
-    ],
+    domains: ["localhost", "127.0.0.1", "http://localhost:8888"],
   },
   async redirects() {
     return [
