@@ -16,7 +16,10 @@ const Home = (props: Props) => {
     <>
       <Head>
         <title>Xperiment</title>
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <script
+          src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+          async
+        ></script>
       </Head>
       <header
         className={`fixed top-0 right-0 h-20 w-full bg-rose-700 text-white flex items-center justify-between ${paddingClass}`}
