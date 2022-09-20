@@ -36,7 +36,7 @@ const Home = (props: Props) => {
               key={k}
               className="py-3 flex items-start justify-start space-x-4"
             >
-              <div className="rounded-full h-4 w-4 bg-cyan-600 mt-2"></div>
+              <div className="rounded-full h-4 w-4 bg-yellow-600 mt-2"></div>
               <div>
                 <h2 className="text-lg font-medium">{cat.name}</h2>
                 <p className="">-{cat.description}</p>
