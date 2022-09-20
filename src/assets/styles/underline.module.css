@@ -1,0 +1,103 @@
+.underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.underlineColorT {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(to left, #d72740 0%, #d72740 100%);
+}
+
+.underlineColorN {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(to left, #d72740 0%, #d72740 100%);
+}
+/* .underlineColor {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(to left, rgb(164, 211, 243) 50%, rgb(7, 82, 182) 100%);
+} */
+
+.underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
+
+.spinner6 {
+  position: relative;
+  /* color: transparent; */
+
+  /* &::before { */
+  /* position: absolute; */
+  /* top: 50%; */
+  left: calc(50% - 8.5rem);
+  width: 0.2rem;
+  height: 0.2rem;
+  transform: translate3d(-50%, -50%, 0);
+  border-radius: 50%;
+  color: white;
+  content: "";
+  will-change: box-shadow;
+  animation: spinner6 2s infinite linear;
+  /* } */
+}
+.btnLoadingSpinner {
+  position: relative;
+  /* color: transparent; */
+
+  /* &::before { */
+  /* position: absolute; */
+  /* top: 50%; */
+  left: calc(50% - 6.5rem);
+  width: 0.2rem;
+  height: 0.2rem;
+  transform: translate3d(-50%, -50%, 0);
+  border-radius: 50%;
+  color: blue;
+  content: "";
+  will-change: box-shadow;
+  animation: spinner6 2s infinite linear;
+  /* } */
+}
+
+@keyframes spinner6 {
+  0%,
+  100% {
+    box-shadow: 1em 0 0 -0.8em, 1.5em 0 0 -0.8em, 2em 0 0 -0.8em;
+  }
+
+  12.5% {
+    box-shadow: 1em 0 0 0, 1.5em 0 0 -0.8em, 2em 0 0 -0.8em;
+  }
+
+  25% {
+    box-shadow: 1em 0 0 0.2em, 1.5em 0 0 0, 2em 0 0 -0.8em;
+  }
+
+  37.5% {
+    box-shadow: 1em 0 0 0, 1.5em 0 0 0.2em, 2em 0 0 0;
+  }
+
+  50% {
+    box-shadow: 1em 0 0 -0.2em, 1.5em 0 0 0, 2em 0 0 0.2em;
+  }
+
+  62.5% {
+    box-shadow: 1em 0 0 -0.4em, 1.5em 0 0 -0.2em, 2em 0 0 0;
+  }
+
+  75% {
+    box-shadow: 1em 0 0 -0.6em, 1.5em 0 0 -0.4em, 2em 0 0 -0.2em;
+  }
+}
+
+.headerLogo {
+  background-image: url("/images/zemidi.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

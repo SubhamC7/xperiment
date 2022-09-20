@@ -1,0 +1,24 @@
+Options -Indexes
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteRule ^home/(.*)$ home.html
+RewriteRule ^login login.html
+RewriteRule ^all-packages all-packages/.html
+RewriteRule ^all-specializations all-specializations/.html
+RewriteRule ^all-categories all-categories/.html
+RewriteRule ^all-hospitals-packages all-hospitals-packages/.html
+RewriteRule ^all-services all-services/.html
+RewriteRule ^all-providers all-providers/.html
+RewriteRule ^all-providers-service all-providers-service/.html
+RewriteRule ^bookings bookings/.html
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ home.html
+ErrorDocument 404 /404.html
