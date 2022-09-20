@@ -11,7 +11,7 @@ const Home = (props: Props) => {
   const [paddingClass] = AppStore("paddingClass");
 
   let { title, cats } = attributes;
-
+  console.log("cats", cats);
   return (
     <>
       <Head>
