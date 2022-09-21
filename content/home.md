@@ -1,5 +1,5 @@
 ---
-title: Sweet CATS
+title: Sweet Cats
 date: ""
 cats:
   - name: Kitty
